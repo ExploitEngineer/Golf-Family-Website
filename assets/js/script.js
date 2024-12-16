@@ -3,7 +3,7 @@ const cursorBlur = document.querySelector("#cursorblur");
 const h4All = document.querySelectorAll("#nav h5");
 
 document.addEventListener("mousemove", function (det) {
-    cursor.style.transform = `translate(${det.x + 30}px, ${det.y}px)`;
+    cursor.style.transform = `translate(${det.x}px, ${det.y}px)`;
     cursor.style.transition = "transform 0.6s ease-out";
     cursorBlur.style.transform = `translate(${det.x - 200}px, ${det.y - 200}px)`;
     cursorBlur.style.transition = "transform 0.5s ease-out";

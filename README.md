@@ -14,7 +14,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/DSnake0/Golf-Family-Website.git
+git clone https://github.com/ExploitEngineer/Golf-Family-Website.git
 Open the index.html file in any modern web browser.
 Preview
 https://golf-family-website.vercel.app/
